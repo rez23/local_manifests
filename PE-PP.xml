@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--remotes -->
+    <remote  name="Orel6505"            fetch="https://github.com/Orel6505"                                />
+    <remote  name="Orel6505-gitlab"     fetch="https://gitlab.com/Orel6505/"                               />
+    <remote  name="Linux4"              fetch="https://github.com/Linux4"                                  />           
+    <remote  name="LineageOS"           fetch="https://github.com/LineageOS"                               />
+    <remote  name="TheMuppets"          fetch="https://github.com/TheMuppets"                              />
+    <remote  name="PE-devices"          fetch="https://github.com/PixelExperience-Devices"                 />
+    <remote  name="PE-blobs"            fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"    />
+    <remote  name="PE-source"           fetch="https://github.com/PixelExperience"                         />
+    <remote  name="Rez23"               fetch="https://github.com/rez23"                                   />
+
+    <remove-project name="frameworks_base" remote="pixel-plus" />
+
+
+    <project path="frameworks/base" name="frameworks_base" remote="Rez23" revision="pe-pluspls-dev"        />
+
+
+    </manifest>
